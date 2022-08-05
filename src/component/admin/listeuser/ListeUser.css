@@ -1,0 +1,64 @@
+.tableRdvPatient tbody{
+    border-top: none !important;
+}
+.title_table_list_utilisateurPU{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3f51b5;
+    margin-top: 3%;
+    transition: all 0.5s ease;
+}
+.inputListeUtilisateurLU{
+    width: 100%;
+    height: 43.5px;
+    border: 1px solid #3f51b5;
+    color: #3f51b5;
+    padding-left: 2%;;
+}
+.inputListeUtilisateurLU::placeholder{
+    color: #3f51b5;
+}
+.inputListeUtilisateurLU:focus{
+    outline: none;
+}
+.btnSearchListeUtilisateurLU{
+    width: 100%;
+    height: 43.5px;
+    background-color: #3f51b5;
+    border: 2px solid #3f51b5;
+    color: white;
+}
+.btnRefreshListeUtilisateurLU{
+    width: 100%;
+    height: 43.5px;
+    background-color: #6f42c1;
+    border: 2px solid #6f42c1;
+    color: white;
+}
+.tr2SearchRdvPatientTmp{
+    background-color: white !important;
+    height: 43.5px;
+}
+.containerListeUtilisateur{
+    width: 96%;
+    margin: 2%;
+    padding: 1%;
+    box-shadow: 0px 5px 12px 5px #00000024;
+    border-radius: 5px;
+}
+.text-mdp-ListeUser{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.title_table_list_utilisateurLU{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3f51b5;
+    margin-top: 3%;
+    transition: all 0.5s ease;
+}

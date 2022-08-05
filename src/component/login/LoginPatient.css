@@ -1,0 +1,599 @@
+.mainLoginPatient{
+    font-size: 13px;
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eeeeee;
+}
+.containerLoginPatient{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background: #fff;;
+    border-radius: 10px;
+    padding-bottom: 60px;
+}
+.titleRegisterLoginPatient{
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.litletitleRegisterLoginPatient{
+    color: #000000a6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.searchVaccinDemanderLoginPatient .ul{
+    width: 98%;
+    display: flex;
+    margin: 1%;
+    padding: 0;
+}
+.searchVaccinDemanderLoginPatient .ul .li1{
+    width: 80%;
+    list-style: none;
+}
+.searchVaccinDemanderLoginPatient .ul .li2{
+    width: 20%;
+    list-style: none;
+}
+.searchVaccinDemanderLoginPatient .ul .li1 .input{
+    width: 100%;
+    height: 40px;
+    padding-left: 2%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 2px solid #4966b1;
+    color: #4966b1;
+    border-right: none;
+}
+.searchVaccinDemanderLoginPatient .ul .li1 .input::placeholder{
+    color: #4966b1;
+}
+.searchVaccinDemanderLoginPatient .ul .li1 .input:focus{
+    outline: none;
+}
+.searchVaccinDemanderLoginPatient .ul .li2 .btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #4966b1;
+    border-radius: 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: white;
+}
+.searchVaccinDemanderLoginPatient .ul .li2 .btn:hover{
+    background-color: #283593;
+}
+.searchVaccinodromeLoginPatient .ul{
+    width: 98%;
+    display: flex;
+    margin: 1%;
+    padding: 0;
+}
+.searchVaccinodromeLoginPatient .ul .li1{
+    width: 60%;
+    list-style: none;
+}
+.searchVaccinodromeLoginPatient .ul .li2{
+    width: 20%;
+    list-style: none;
+}
+.searchVaccinodromeLoginPatient .ul .li3{
+    width: 20%;
+    list-style: none;
+}
+.searchVaccinodromeLoginPatient .ul .li1 .input{
+    width: 100%;
+    height: 40px;
+    padding-left: 2%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 2px solid #4966b1;
+    color: #4966b1;
+    border-right: none;
+}
+.searchVaccinodromeLoginPatient .ul .li1 .input::placeholder{
+    color: #4966b1;
+}
+.searchVaccinodromeLoginPatient .ul .li1 .input:focus{
+    outline: none;
+}
+.searchVaccinodromeLoginPatient .ul .li2 .btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #4966b1;
+    border-radius: 0px;
+    color: white;
+}
+.searchVaccinodromeLoginPatient .ul .li2 .btn:hover{
+    background-color: #009688;
+}
+.searchVaccinodromeLoginPatient .ul .li3 .btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #009688;
+    border-radius: 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left: 2px solid white;
+    color: white;
+}
+.searchVaccinodromeLoginPatient .ul .li3 .btn:hover{
+    background-color: #00695c;
+}
+.containerPageWrapper {
+    height: 100%;
+    display: table;
+  }
+  
+  .containerPageWrapper .pageInner {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .elWrapper {
+    width: 360px;
+    padding: 15px;
+    margin: 15px auto;
+    background-color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+    .elWrapper {
+      width: 345px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .elWrapper {
+      width: 290px;
+      margin: 30px auto;
+    }
+  }
+  
+  .elWrapper:hover .boxDownHbg {
+    left: 0px;
+  }
+  
+  .elWrapper:hover .price {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #818181;
+    display: none;
+  }
+  
+  .elWrapper:hover .addToCart {
+    left: 50%;
+  }
+  
+  .elWrapper:hover .imageInboxUp {
+    webkit-filter: blur(7px);
+    -o-filter: blur(7px);
+    -ms-filter: blur(7px);
+    filter: blur(7px);
+    filter: progid:DXImageTransform.Microsoft.Blur(pixelradius='7', shadowopacity='0.0');
+    opacity: 0.4;
+  }
+  
+  .elWrapper:hover .infoInner {
+    display: none;
+  }
+  
+  .elWrapper:hover .descriptionvaccinationasize {
+    -webkit-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
+    bottom: 50px;
+    opacity: 1;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: left;
+  }
+  .elWrapper:hover .descriptionvaccinationasize::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+    margin-right: 2%;
+  }
+  
+  .elWrapper:hover .descriptionvaccinationasize::-webkit-scrollbar-thumb {
+    background: #3f96cd;
+  }
+  .elWrapper .boxDown {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .elWrapper .boxUp {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .elWrapper .imageInboxUp {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    -webkit-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    -o-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+  }
+  .descdescriptionvaccinationasize{
+    margin-bottom: 15px;
+  }
+  .descdescriptionvaccinationasize div{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  .boxDownHbg {
+    -webkit-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    -o-transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    transition: all 800ms cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    width: 660px;
+    height: 100%;
+    background-color: #3f96cd;
+    position: absolute;
+    left: -659px;
+  }
+  
+  .boxDownHbg .boxDownHbgInner {
+    width: 50%;
+    height: 100%;
+    background-color: #009688;
+  }
+  
+  .infoInner {
+    -webkit-transition: all 400ms cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition: all 400ms cubic-bezier(0, 0, 0.18, 1);
+    -o-transition: all 400ms cubic-bezier(0, 0, 0.18, 1);
+    transition: all 400ms cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+  }
+  
+  .infoInner .infoInnerPNname,
+  .infoInner .infoInnerPCompany {
+    display: block;
+  }
+  
+  .infoInner .infoInnerPNname {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #252525;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .infoInner .infoInnerPCompany {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8c8c8c;
+  }
+  
+  .descriptionvaccinationasize {
+    -webkit-transition: all 300ms cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition: all 300ms cubic-bezier(0, 0, 0.18, 1);
+    -o-transition: all 300ms cubic-bezier(0, 0, 0.18, 1);
+    transition: all 300ms cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    font-family: 'PT Sans', sans-serif;
+    color: #828282;
+    opacity: 0;
+  }
+  
+  .descriptionvaccinationasize .sondescriptionvaccinationasize {
+    color: #252525;
+  }
+  
+  .cartPrixVaccin {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .cartPrixVaccin .price {
+    -webkit-transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    -o-transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    transition-delay: 100ms;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #252525;
+  }
+  
+  .cartPrixVaccin .addToCart {
+    -webkit-transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    -o-transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    transition: all 600ms cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -moz-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    -o-transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.18, 1);
+    /* ease-out */
+    -webkit-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    transition-delay: 100ms;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .cartPrixVaccin .addToCart .txtVaccin {
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .rowlistVaccinodromeLoginPatient{
+    width: 98%;
+    margin: 1%;
+    border: 2px solid #607d8b;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease
+  }
+  .rowlistVaccinodromeLoginPatient:hover{
+    background-color: #607d8b;
+    color: white !important;
+  }
+  .rowlistVaccinodromeLoginPatient:hover .StitlelistVaccindormeLoginPatient{ 
+    color: white !important;
+  }
+  .rowlistVaccinodromeLoginPatient .StitlelistVaccindormeLoginPatient{ 
+    color: black !important;
+  }
+  .colrowlistVaccinodromeLoginPatient{
+    padding: 0;
+    margin: 0;
+  }
+  .colrowlistVaccinodromeLoginPatient .imageVaccinodrome{
+    width: 100%;
+    max-height: 332px;
+    border-radius: 5px;
+    border: 2px solid #607d8b;
+  }
+  .StitlelistVaccindormeLoginPatient tbody tr .td1{
+    width: 25%;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #009688;
+    color: white;
+  }
+  .StitlelistVaccindormeLoginPatient tbody tr .td2{
+    width: 75%;
+    background-color: white;
+    color: #607d8b;
+  }
+  .filtreSearchLoginPatient{
+    width: 96%;
+    margin: 2%;
+    border: 2px solid #9e9e9e;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+  .champsInputSearchAvancerLoginPatient{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .champsInputSearchAvancerLoginPatient .input{
+    width: 100%;
+    height: 40px;
+    padding-left: 2%;
+    border-radius: 7px;
+    border: 2px solid #4966b1;
+    color: #4966b1;
+  }
+  .champsInputSearchAvancerLoginPatient .input::placeholder{
+    color: #4966b1;
+  }
+  .champsInputSearchAvancerLoginPatient .input:focus{
+    outline: none;
+  }
+  .titlefiltreSearchLoginPatient{
+    text-align: left;
+    font-size: 29px;
+  }
+  .text_value_localisation_inscriptionVaccinodromev2{
+    color: white;
+  }
+  .champsLoginPatient{
+    margin: 20px;
+  }
+  .champsRegisterLoginPatient{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    padding: 5px 0;
+    color: #222;
+    margin-bottom: 31px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .champsRegisterLoginPatient:focus{
+    outline: none;
+  }
+  .mdptextLoginPatient{
+    width: 100%;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: 600;
+  }
+  .mdpgourpLoginPatient{
+    margin-top: -24px;
+  }
+  .menusonHeaderAndTitleInscriptionPatient .ul{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #4966b1;
+    height: 66px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .menusonHeaderAndTitleInscriptionPatient .ul .li1{
+    width: 10%;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.8;
+    padding-top: 20px;
+    background: #4966b1;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 1px 15px 0px rgb(73 102 177 / 70%);
+    -moz-box-shadow: 0px 1px 15px 0px rgba(73, 102, 177, 0.7);
+    -webkit-box-shadow: 0px 1px 15px 0px rgb(73 102 177 / 70%);
+    -o-box-shadow: 0px 1px 15px 0px rgba(73, 102, 177, 0.7);
+    -ms-box-shadow: 0px 1px 15px 0px rgba(73, 102, 177, 0.7);
+  }
+  .menusonHeaderAndTitleInscriptionPatient .ul .li1:hover{
+    background: #009688;
+  }
+  .menusonHeaderAndTitleInscriptionPatient .ul .li1:disabled{
+    background: #9e9e9e;
+  }
+  .menusonHeaderAndTitleInscriptionPatient .ul .li2{
+    width: 80%;
+    list-style: none;
+    line-height: 66px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .menusonHeaderAndTitleInscriptionPatient .ul .li3{
+    width: 10%;
+    list-style: none;
+  }
+  .descriptionInscriptionPatient{
+    width: 100%;
+    background-color: #ffa726;
+    padding: 1%;
+  }
+  .sondescriptionInscriptionPatient{
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .containerTableInscriptionPAtient{
+    width: 96%;
+    margin: 2%;
+  }
+  .miniTitleInscriptionPatient{
+    width: 100%;
+    background-color: #ffa726;
+    padding: 1%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .descriptionInscriptionPatient .des{
+    margin-bottom: 10px;
+  }
+  .descriptionInscriptionPatient .spantmp{
+    text-transform: uppercase;
+    font-weight: 800;
+  }

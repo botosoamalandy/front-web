@@ -1,0 +1,376 @@
+.containerVaccinInVaccinodrome{
+    min-height: 100vh;
+    border-top: 1px solid #607d8b;
+    background-color: white;
+}
+.champsInsertionVaccinCentre{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 1%;
+    background-color: #607d8b;
+}
+.champsInsertionVaccinCentretmpUl{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ffffff26;
+}
+.champsInsertionVaccinCentretmpUl .li1{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 13px;
+    cursor: pointer;
+    list-style: none;
+    width: 30%;
+}
+.champsInsertionVaccinCentretmpUl .li2{
+    list-style: none;
+    width: 70%;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.iconArrowLeftRetourVaccinCentre{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 13px;
+    border-bottom: 1px solid #ffffff26;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.title_champsInsertionVaccinCentre{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    margin: 15px 0 30px 0;
+    font-weight: 700;
+}
+.ul_listVaccinSelectVaccin{
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+.ul_listVaccinSelectVaccin li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.li1_ul_listVaccinSelectVaccin{
+    width: 70%;
+}
+.li2_ul_listVaccinSelectVaccin{
+    width: 30%;
+}
+.button_li2_ul_listVaccinSelectVaccin{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.button_li2_ul_listVaccinSelectVaccin:hover{
+    background-color: #004dbf;
+}
+.son_champsInsertionVaccinCentre{
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.formItem_champsInsertionVaccinCentre{
+    position: relative;
+    padding-top: 13px;
+}
+
+.formItem_champsInsertionVaccinCentre input, .formItem_champsInsertionVaccinCentre textarea{
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    height : 60px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -webkit-appearance:none;
+}
+.formItem_champsInsertionVaccinCentre textarea{
+    padding-top: 19px !important;
+}
+.formItem_champsInsertionVaccinCentre input[type="file"]{
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    padding-top: 20px;
+    height: 60px;
+    color : white;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -webkit-appearance:none;
+}
+
+.formItem_champsInsertionVaccinCentre input:focus,.formItem_champsInsertionVaccinCentre textarea:focus{
+    border: 2px solid #0d6efd;
+}
+
+.formItem_champsInsertionVaccinCentre input::placeholder, .formItem_champsInsertionVaccinCentre textarea::placeholder{
+    color:transparent;
+}
+
+.formItem_champsInsertionVaccinCentre label{
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 15px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    color: 3951b2;
+}
+.formItem_champsInsertionVaccinCentre input:focus + label,
+.formItem_champsInsertionVaccinCentre input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    top: 0;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+}
+.formItem_champsInsertionVaccinCentre textarea:focus + label,
+.formItem_champsInsertionVaccinCentre textarea:not(:placeholder-shown) + label{
+    font-size: 13px;
+    top: 0;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+}
+.btn_son_champsInsertionVaccinCentre{
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+    background-color: #198754;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #198754;
+}
+.btn_son_champsInsertionVaccinCentre:hover{
+    border: 1px solid #0c5634;
+    background-color: #0c5634;
+}
+.btn_son_champsInsertionVaccinCentreM{
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+    background-color: #ffc107;
+    font-weight: 700;
+    color: #000;
+    border-radius: 8px;
+    border: 1px solid #ffc107;
+}
+.btn_son_champsInsertionVaccinCentreM:hover{
+    border: 1px solid #ffc71e;
+    background-color: #ffc71e;
+    box-shadow: 0 0 0 0.25rem rgb(217 164 6 / 50%);
+}
+.oldul_listVaccinSelectVaccin{
+    width: 100%;
+    margin-top: 23px;
+}
+.toutLesMaladieIncompatibleAuVaccin{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: white;
+}
+.toutLesMaladieIncompatibleAuVaccinTd{
+    font-size: 12px;
+}
+.menu_temporaire_dans_un_page{
+    width: 98%;
+    margin : 1%;
+}
+.menu_temporaire_dans_un_page ul{
+    width: 98%;
+    margin: 1%;
+    display : flex;
+    padding: 0;
+}
+.menu_temporaire_dans_un_page ul .li_1,.menu_temporaire_dans_un_page ul .li_3{
+    width: 30%;
+    list-style: none;
+}
+.menu_temporaire_dans_un_page ul .li_2{
+    width: 40%;
+    list-style: none;
+}
+.menu_temporaire_dans_un_page ul .li_1 .btn_liste, .menu_temporaire_dans_un_page ul .li_2 .btn_liste, .menu_temporaire_dans_un_page ul .li_3 .btn_liste{
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #4988f2;
+    transition: all 0.5s ease;
+}
+.menu_temporaire_dans_un_page ul .li_1 .btn_liste:hover, .menu_temporaire_dans_un_page ul .li_2 .btn_liste:hover, .menu_temporaire_dans_un_page ul .li_3 .btn_liste:hover{
+    border-bottom: 4px solid #2828aa;
+}
+.menu_temporaire_dans_un_page ul .li_1 .btn_click, .menu_temporaire_dans_un_page ul .li_2 .btn_click, .menu_temporaire_dans_un_page ul .li_3 .btn_click{
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    border-bottom: 4px solid #2828aa;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #2828aa;
+    transition: all 0.5s ease;
+}
+.menu_temporaire_dans_un_page ul .li_1 .btn_click:hover, .menu_temporaire_dans_un_page ul .li_2 .btn_click:hover, .menu_temporaire_dans_un_page ul .li_3 .btn_click:hover{
+    border-bottom: 4px solid #4988f2;
+}
+.title_table_list_vaccin_vaccinodrome{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #607d8b;
+    margin-top: 3%;
+    transition: all 0.5s ease;
+}
+.listVaccinVaccinodrome{
+    width: 96%;
+    margin: 2%;
+    margin-top: 0;
+}
+.tableListVaccinVaccinodrome thead {
+    background-color: #607d8b;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.tableListVaccinVaccinodromeinputSearch{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding-left: 5px;
+}
+.tableListVaccinVaccinodromeButtonAdd{
+    width: 100%;
+    min-width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    border: 2px solid #0d6efd;
+    color: white;
+    font-weight: 700;
+}
+.tableBodyListVaccinVaccinodromeTd1{
+    font-size: 14px;
+    font-weight: 600;
+}
+.tableBodyListVaccinVaccinodromeTd2{
+    font-size: 14px;
+    font-weight: 500;
+}
+.tableBodyListVaccinVaccinodromeTd3Btn{
+    width: 98%;
+    border-radius: 5px;
+}
+.tableListVaccinVaccinodrome_search{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.tableListVaccinVaccinodrome_search li{
+    list-style: none;
+}
+.tableListVaccinVaccinodrome_search .li1{
+    width: 70%;
+}
+.tableListVaccinVaccinodrome_search .li2{
+    width: 20%;
+}
+.tableListVaccinVaccinodrome_search .li3{
+    width: 10%;
+}
+.tableListVaccinVaccinodrome_search .li2 .libtn{
+    width: 98%;
+    height: 32px;
+    border-radius: 5px;
+    margin-top: -1px;
+    color: white;
+    background-color: #198754;
+    border: 2px solid white;
+    margin-left: 1%;
+}
+.tableListVaccinVaccinodrome_search .li2 .libtn:hover{
+    color: #198754;
+    background-color: white;
+    border: 2px solid #198754;
+}
+.tableListVaccinVaccinodrome_search .li3 .libtn{
+    width: 98%;
+    height: 32px;
+    border-radius: 5px;
+    margin-top: -1px;
+    color: white;
+    background-color: #00bcd4;
+    border: 2px solid white;
+    margin-left: 1%;
+}
+.tableListVaccinVaccinodrome_search .li3 .libtn:hover{
+    color: #00bcd4;
+    background-color: white;
+    border: 2px solid #00bcd4;
+}
+.btnInColumnAction{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.btnInColumnAction li{
+    width: 50%;
+    list-style: none;
+    text-align: center;
+}
+.nomvaccinInText{
+    text-align: left;
+    font-size: 19px;
+    color: white;
+    border-bottom: 1px solid;
+}
+.nomvaccinInText span{ 
+    text-transform: uppercase;
+}

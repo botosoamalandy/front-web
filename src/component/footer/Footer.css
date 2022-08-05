@@ -1,0 +1,55 @@
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    color: #9B9B9B;
+    border: 1px solid #9B9B9B;
+    border-radius: 38px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: #32C36C;
+    border-color: #F6F7F8;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #9B9B9B;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    color: #9B9B9B !important;
+    padding: 25px 0;
+    border-top: 1px solid rgba(256, 256, 256, .1)!important;
+}
+
+.footer .copyright a {
+    color: #F6F7F8;
+}
+
+.footer .copyright a:hover {
+    color: #32C36C !important;
+}
+.tmpClassFooter{
+    margin-top: 0 !important;
+}

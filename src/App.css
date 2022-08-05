@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.App::-webkit-scrollbar {
+  width: 2px;
+  height: 10px;
+  margin-right: 2%;
+}
+
+.App::-webkit-scrollbar-thumb {
+  background: #0C60EEBF;
+}
+.titleUpperCase{
+  text-transform: uppercase;
+}
+.textAlignRight{
+  padding-right: 15px;
+  text-align: right;
+}
+.textAlignRightTmp{
+  text-align: right !important;
+}
+.textAlignLeft{
+  text-align: left !important;
+}
+.textAlignCenter{
+  text-align: center;
+}
+.App{
+  font-family: 'Roboto', sans-serif;
+}

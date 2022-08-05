@@ -1,0 +1,288 @@
+.principaleMesPatients{
+    margin: 0px;
+    padding-bottom: 60px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    border-top: 2px solid #1a2a3614;
+}
+.containerMP{
+    width: 94%;
+    margin: 3%;
+    padding: 1%;
+    box-shadow: 0px 5px 12px 5px #00000024;
+    border-radius: 5px;
+}
+.titleInMP{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3f51b5;
+}
+.detailFamilleMP{
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.textMaFamille{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #009688;
+}
+.ulShowDetailPatientMP{
+    display: flex;
+    width: 98%;
+    margin: 1%;
+    padding: 0;
+    background-color: #009688;
+}
+.ulShowDetailPatientMP .li1{
+    width: 90%;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    padding-left: 2%;
+    line-height: 35px;
+}
+.ulShowDetailPatientMP .li2{
+    width: 10%;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    cursor: pointer;
+}
+.ulShowDetailPatientMP .li2:hover{
+    background-color: #00695c;
+}
+.divInputMP{
+    width: 100%;
+    padding-top: 10px;
+}
+.inputMP{
+    position: relative;
+    padding-top: 13px;
+}
+.inputMP input, .inputMP textarea{
+    border: 2px solid #009688;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    height : 60px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -webkit-appearance:none;
+    color: #009688;
+}
+.inputMP textarea{
+    padding-top: 19px !important;
+}
+.inputMP input:focus,.inputMP textarea:focus{
+    border: 2px solid #009688;
+}
+
+.inputMP input::placeholder, .inputMP textarea::placeholder{
+    color:transparent;
+}
+
+.inputMP label{
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 15px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    color: 3951b2;
+}
+.inputMP input:focus + label,
+.inputMP input:not(:placeholder-shown) + label, .inputMP textarea:focus + label,.inputMP textarea:not(:placeholder-shown) + label{
+    font-size: 13px;
+    top: 0;
+    border-radius: 5px;
+    background-color: #009688;
+    color: white;
+}
+.vaccinationPatientMP{
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 0px 5px 12px 5px #00000024;
+    border-radius: 5px;
+}
+.divPrescriptionMP{
+    border: 2px solid #009688;
+    padding: 1%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.textPrescriptionMedicalMP{
+    color: #009688;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+.textPrescriptionMedicalTmpMP{
+    margin-top: 15px;
+}
+.divTablePrescriptionMP{
+    margin-top: 15px;
+}
+.tablePrescriptionMP thead tr{
+    background-color: #009688;
+    color: white;
+}
+.tablePrescriptionMP thead tr th{
+    border: 2px solid #009688;
+    border-right: 2px solid white;
+}
+.tablePrescriptionMP thead tr .thTmpMP{
+    border-right: 2px solid #009688;
+}
+.tablePrescriptionMP tbody{
+    border-top: none !important;
+}
+.tablePrescriptionMP tbody tr td{
+    color: #009688;
+    border: 2px solid #009688;
+}
+.componentOrdonance{
+    width: 800px;
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.headerOrdonance{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.headerOrdonance .li1{
+    width: 70%;
+    list-style: none;
+}
+.headerOrdonance .li1 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+.headerOrdonance .li1 span{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+.headerOrdonance .li2{
+    width: 50%;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.headerOrdonance .li2 .nomVaccinodromeOradonance{
+    font-size: 18px;
+    font-weight: 700;
+}
+.vaccinOrdonance{
+    padding: 1%;
+    font-size: 13px;
+    border: 1px solid;
+    width: 98%;
+    margin: 1%;
+    border-radius: 6px;
+}
+.vaccinOrdonance .nomvaccinOrdonance span{
+    font-size: 18px;
+    font-weight: 700;
+}
+.vaccinOrdonance .nomPatient span{
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.titleOrdonance{
+    margin-left: 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+}
+.traitementOrdonance{
+    border-left: 1px solid;
+}
+.traitementOrdonance ul{
+    margin: 0;
+    padding-left: 2rem;
+}
+.traitementOrdonance ul li{
+    padding-bottom: 15px;
+}
+.traitementOrdonance ul li div {
+    font-size: 12px;
+    font-weight: 500;
+}
+.traitementOrdonance ul li div span{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.footerOrdonancerow{
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+    border-top: 1px solid;
+}
+.footerOrdonancerow .dotted{ 
+    border-bottom: 2px dotted;
+    height: 30px;
+}
+.bodyOrdonanceUl{
+    width: 100%;
+    padding : 0;
+    margin: 0;
+    display: flex;
+}
+.bodyOrdonanceUl .li1{
+    width: 40%;
+    list-style: none;
+}
+.bodyOrdonanceUl .li2{
+    width: 60%;
+    list-style: none;
+}
+.bodyOrdonanceUl .signature{
+    text-decoration: underline;
+    padding-right: 100px;
+    text-align: right;
+}
+.btnEditSupAnnulationV4{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.btnEditSupAnnulationV4 li{
+    list-style: none;
+    width: calc(100% / 4);
+}
+.btnEditSupAnnulationV4 li button{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid white;
+}

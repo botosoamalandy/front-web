@@ -1,0 +1,20 @@
+.principaleProfilAdmin{
+    margin: 0px;
+    padding-bottom: 60px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    border-top: 1px solid black;
+}
+.editUtilisateurPA{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.editUtilisateurTitlePA{
+    padding-top: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0d6efdcf;
+}
